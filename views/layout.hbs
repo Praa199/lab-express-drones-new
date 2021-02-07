@@ -7,16 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{title}}</title>
     <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+    crossorigin="anonymous">
   </head>
 
   <body>
-    <nav>
-      <a href="/drones">List of Drones</a>
-      <a href="/drones/create">New Drone</a>
+    <nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a href="/" class="navbar-brand">Home</a>
+      <a href="/drones" class="navbar-brand">List of Drones</a>
+      <a href="/drones/create" class="navbar-brand">New Drone</a>
+  </div>
+
     </nav>
+
     {{{body}}}
 
     <script src="/javascripts/script.js"></script>
   </body>
 
-</html>
+</html> 

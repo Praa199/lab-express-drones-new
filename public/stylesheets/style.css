@@ -1,8 +1,18 @@
 body {
+
   padding: 50px;
   font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00b7ff;
+#title{
+  text-align: center;
+  margin: 10% 0;
 }
+
+#welcome{
+  text-align: center;
+}
+
+
+
+

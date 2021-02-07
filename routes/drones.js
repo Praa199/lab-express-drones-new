@@ -87,7 +87,7 @@ router.post('/drones/:id/delete', (req, res, next) => {
   DroneModel.findByIdAndDelete(id)
   .then((result) => {
     //console.log('deletion has succeded',result)
-    res.redirect('/')
+    res.redirect('/drones')
   }).catch((err) => {
     //console.log('deletion has failed',err)
   });
